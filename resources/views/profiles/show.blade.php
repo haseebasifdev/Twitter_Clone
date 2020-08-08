@@ -3,7 +3,7 @@
         <div class=" relative">
             <img src="/images/download.jfif" width="800px" alt="No Avatar" srcset=""
                 class="mb-2   border borderRadius-lg">
-            <img src="{{$user->avatar}}" alt="No Avatar" class=" rounded-full mr-2 absolute bottom-0"
+            <img src="{{$user->avatar}}" alt="No Avatar" class="rounded-full mr-2 absolute bottom-0"
                 style="left:calc(50% - 75px); bottom:-75px" width="150px " srcset="">
         </div>
         <div class=" flex justify-between mb-3">
@@ -41,3 +41,9 @@
     'tweets'=>$user->tweets
     ])
 </x-app>
+
+
+
+
+
+
